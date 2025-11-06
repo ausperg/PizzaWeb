@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Pizzateig Rechner</title>
+</head>
+
+<body>
+	<header>
+		<h1 class="headline" id="page-titel">Pizzateig Rechner</h1>
+		<button id="darkmode-btn"></button>
+	</header>
+	<div id="content">
+		<div class="column" id="select-level">
+			<h3 class="headline">Erfahrung mit Pizzateig</h3>
+			<div class="row">
+				<button class="button-left text" id="beginner-level">Anfänger</button>
+				<button class="button-right text" id="pro-level">Profie</button>
+			</div>
+		</div>
+		<div class="column" id="select-dough-time">
+			<h3 class="headline">Teigruhe</h3>
+			<div class="row">
+				<button class="button-left text" id="eight-hours">8h</button>
+				<button class="text" id="sixteen-hours">16h</button>
+				<button class="button-right text" id="twenty-four-hours">24h+</button>
+			</div>
+		</div>
+		<div class="column" id="select-number-of-pizza">
+			<h3 class="headline">Pizzen</h3>
+			<p class="text">Anzahl der Pizzen: <span class="headline" id="pizza-count">NaNa</span> </p>
+			<input type="range" min="1" max="30" value="8" class="slider" id="slider-number-of-pizza">
+		</div>
+		<div class="column" id="select-size-of-pizza">
+			<h3 class="headline">Welchen durchmesser soll die pizza haben?</h3>
+			<p class="text">Durchmesser pro Pizza: <span class="headline" id="pizza-size">NaNa</span><span
+					class="headline"> cm</span></p>
+			<input type="range" min="15" max="50" value="25" class="slider" id="slider-size-of-pizza">
+		</div>
+		<div class="recipe-box column">
+			<div class="column" id="ingredients">
+			<h3 class="headline">Zutaten</h3>
+			<p class="text less-line-spacing">Mehl: <span class="headline" id="flour">NaNa</span> g</p>
+			<p class="text less-line-spacing">Salz: <span class="headline" id="salt">NaNa</span> g</p>
+			<p class="text less-line-spacing">Wasser: <span class="headline" id="water">NaNa</span> ml</p>
+			<p class="text less-line-spacing">Olivenöl: <span class="headline" id="oil">NaNa</span> ml</p>
+			<p class="text less-line-spacing">Frische Hefe: <span class="headline" id="yeast">NaNa</span> g / Trocken
+				Hefe: <span class="headline" id="dry-yeast">NaNa</span> g</p>
+			</div>
+			<div class="column" id="preparation">
+				<h3 class="headline">Zubereitung</h3>
+				<p class="text less-line-spacing">1. Mehl in die Schüssel geben.</p>
+				<p class="text less-line-spacing">2. Wasser, Olivenöl und Salz dazugeben (etwas Wasser für den vierten Schritt aufheben).</p>
+				<p class="text less-line-spacing">3. Alles gut vermengen.</p>
+				<p class="text less-line-spacing">4. Hefe mit dem restlichen Wasser vermischen und in den Teig geben.</p>
+				<p class="text less-line-spacing">5. Gut kneten, ca. 10–20 Minuten.</p>
+				<p class="text less-line-spacing">6. Den Teig gehen lassen (für den 16- bis 24-Stunden-Teig an einem kühlen Ort). Ca. 3–4 Stunden vor dem Backen den Teig bei Raumtemperatur gehen lassen.</p>
+				<p class="text less-line-spacing">7. Den Teig ca. 30 Minuten vor dem Backen portionieren.</p>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<p class="text">Pizzateig Rechner -  © 2025 by APM</p>
+	</footer>
+</body>
+<script src="script.js"></script>
+</html>
