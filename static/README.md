@@ -5,22 +5,3 @@ Diese komplett von Hand geschriebene Pizza-Teig-Rechner-Webanwendung (in Zeiten 
 
  **Erreichbar ist der Pizza-Teig-Rechner unter https://pizza.yellow-cow.de.** <br>
  **Probier ihn gerne aus!**
-
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
