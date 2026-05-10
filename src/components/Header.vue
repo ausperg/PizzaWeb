@@ -1,11 +1,12 @@
 <script setup>
+import BaseButton from './base/BaseButton.vue';
 
 </script>
 
 <template>
 	<header>
 		<h1 class="headline" id="page-titel">Pizzateig Rechner</h1>
-		<button id="darkmode-btn"></button>
+		<BaseButton id="darkmode-btn"></BaseButton>
 	</header>
 </template>
 
@@ -31,6 +32,7 @@ header {
 	cursor: pointer;
 	border-radius: 5px;
 	background-image: url('/dark-mode.png');
+	background-color: var(--bg-light);
 	background-position: center;
 }
 </style>
