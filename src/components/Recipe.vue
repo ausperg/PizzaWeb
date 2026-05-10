@@ -1,17 +1,18 @@
 <script setup>
+import BaseBox from './base/BaseBox.vue';
+
 </script>
 
 <template>
-	<div class="recipe-box column">
+	<BaseBox class="column">
 		<div class="column" id="ingredients">
 			<h3 class="headline">Zutaten</h3>
 			<p class="text less-line-spacing">Mehl: <span class="headline" id="flour">NaNa</span> g</p>
 			<p class="text less-line-spacing">Salz: <span class="headline" id="salt">NaNa</span> g</p>
 			<p class="text less-line-spacing">Wasser: <span class="headline" id="water">NaNa</span> ml</p>
 			<p class="text less-line-spacing">Olivenöl: <span class="headline" id="oil">NaNa</span> ml</p>
-			<p class="text less-line-spacing">Frische Hefe: <span class="headline" id="yeast">NaNa</span> g /
-				Trocken
-				Hefe: <span class="headline" id="dry-yeast">NaNa</span> g</p>
+			<p class="text less-line-spacing">Frische Hefe: <span class="headline" id="yeast">NaNa</span>
+				 g / Trocken Hefe: <span class="headline" id="dry-yeast">NaNa</span> g</p>
 		</div>
 		<div class="column" id="preparation">
 			<h3 class="headline">Zubereitung</h3>
@@ -28,7 +29,7 @@
 			<p class="text less-line-spacing">7. Den Teig ca. 30 Minuten vor dem Backen portionieren.</p>
 			<p class="text less-line-spacing">PS: Ein Teigling sind 350g Teig.</p>
 		</div>
-	</div>
+	</BaseBox>
 </template>
 
 <style scoped>

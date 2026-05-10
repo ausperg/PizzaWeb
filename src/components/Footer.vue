@@ -1,9 +1,11 @@
 <script setup>
+	import { ref } from 'vue'
+	const year = ref(new Date().getFullYear())
 </script>
 
 <template>
 	<footer>
-		<p class="text">Pizzateig Rechner - © 2025 by APM</p>
+		<p class="text">Pizzateig Rechner - © {{ year }} by APM</p>
 	</footer>
 </template>
 
